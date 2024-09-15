@@ -36,22 +36,36 @@ a{
     flex: 1;
     justify-content:center;
     align-items: center;
-    gap: 16px;
-    padding: 4px 16px;
+    gap: 48px;
+    flex-wrap: wrap;
+    padding: 48px 32px;
 }
 img{
-    width: 500px;
+    width: 400px;
     height: 200px;
 }
 .text{
     display: flex;
-    /* flex:1; */
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    width: 600px;
     gap: 0;
-    align-items: center;
+    padding: auto;
 }
 button{
     width: 100px;
+    border-radius: 30px;
+    background-color: #3882f6;
+}
+.heading{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.subtext{
+    margin: 0;
+    padding:0;
+    color: #E5E7EB;
+    font-size: 18px;
 }
