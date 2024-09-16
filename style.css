@@ -69,3 +69,21 @@ button{
     font-size: 18px;
     margin: 12px auto;
 }
+/* .info{
+    display: flex;
+    flex-direction: row;
+} */
+.images{
+    display: flex;
+}
+/* .imagesdiv{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+} */
+.image{
+    width:100px;
+    height:100px;
+    border: none;
+    border-radius: 12px;
+}
