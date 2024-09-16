@@ -1,7 +1,7 @@
-*{
+/* *{
     outline: 2px solid red;
     box-sizing: border-box;
-}
+} */
 body{
     margin: 0;
     padding:0;
@@ -11,7 +11,6 @@ body{
 }
 .head{
     display: flex;
-    flex:1;
     justify-content: space-around;
     align-items: center;
 }
@@ -23,7 +22,7 @@ body{
 ul{
     display:flex;
     list-style-type: none;
-    gap:16px;
+    gap:32px;
     padding: 0;
 }
 a{
@@ -33,28 +32,28 @@ a{
 }
 .hero{
     display: flex;
-    flex: 1;
     justify-content:center;
     align-items: center;
-    gap: 48px;
+    gap: 72px;
     flex-wrap: wrap;
-    padding: 48px 32px;
+    padding: 80px 56px;
 }
 img{
     width: 400px;
-    height: 200px;
+    height: 250px;
 }
 .text{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    gap: 0;
-    padding: auto;
+    width: 500px;
 }
 button{
     width: 100px;
-    border-radius: 30px;
     background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius:8px;
+    border: none;
+    padding: 8px;
 }
 .heading{
     font-size: 48px;
@@ -68,4 +67,5 @@ button{
     padding:0;
     color: #E5E7EB;
     font-size: 18px;
+    margin: 12px auto;
 }
