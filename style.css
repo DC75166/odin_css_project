@@ -1,7 +1,7 @@
-/* *{
+*{
     outline: 1px solid red;
     box-sizing: border-box;
-} */
+}
 body{
     margin: 0;
     padding:0;
@@ -74,7 +74,7 @@ button{
     color: #1F2937;
     font-weight: 900;
 }
-.section1{
+.info{
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -85,8 +85,8 @@ button{
 .images{
     display: flex;
     flex-wrap: wrap;
-    gap:32px;
-    margin: auto 32px;
+    gap:48px;
+    /* margin: auto 32px; */
     justify-content: space-between;
 }
 .imagediv {
@@ -108,4 +108,12 @@ button{
    font-size: 15px;
    margin:0;
    /* padding: 0; */
+}
+.section2{
+    background-color: #E5E7EB;
+    padding: 24px 0;
+}
+.quotation{
+    display: flex;
+    flex-direction: column;
 }
