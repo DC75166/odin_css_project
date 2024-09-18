@@ -55,6 +55,8 @@ button{
     border-radius:8px;
     border: none;
     padding: 8px;
+    font-weight: bold;
+    font-size: 15px;
 }
 .heading, .subtext{
     margin: 0;
@@ -72,12 +74,13 @@ button{
     font-weight: lighter;
 }
 .section1{
-    padding-top: 32px;
+    padding-top: 8px;
 }
 .random{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .info{
     display: flex;
