@@ -1,11 +1,11 @@
-/* *{
-    outline: 1px solid red;
-    box-sizing: border-box;
-} */
+/* Body default styles */
 body{
     margin: 0;
     padding:0;
+    font-family: "Roboto", sans-serif;
 }
+
+/* Header styles */
 .header{
     background-color: #1F2937;
     padding-bottom: 32px;
@@ -73,6 +73,8 @@ button{
     margin: 12px auto;
     font-weight: lighter;
 }
+
+/* Second section styles */
 .section1{
     padding-top: 8px;
 }
@@ -80,7 +82,7 @@ button{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 .info{
     display: flex;
@@ -118,6 +120,8 @@ button{
    margin:0;
    /* padding: 0; */
 }
+
+/* Quote section styles */
 .section2{
     background-color: #E5E7EB;
     padding: 100px 0;
@@ -129,7 +133,7 @@ button{
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
-    max-width: 500px;
+    max-width: 600px;
     justify-content: center;
     align-items:flex-end;
     margin: 0 32px;
@@ -141,15 +145,16 @@ button{
 }
 .quotes{
     text-align: justify;
-    font-size: 18px;
+    font-size: 24px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 250;
 }
 .person{
     font-size:15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:Roboto; */
 }
 
+/* CTA section styles */
 .section3{
    display: flex;
    justify-content: center;
@@ -167,7 +172,7 @@ button{
      background-color: #3882f6;
      border:none;
      border-radius:6px;
-     gap:2px;
+     gap:4px;
 }
 .ctahead, .ctasub{
     margin:0;
@@ -187,6 +192,11 @@ button{
      flex-direction: column;
      gap:2px;
 }
+.ctasub{
+    font-weight: lighter;
+}
+
+/* Footer styles */
 .footer{
     display: flex;
     justify-content: center;
