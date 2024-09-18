@@ -49,14 +49,14 @@ img{
     width: 500px;
 }
 button{
-    width: 100px;
+    width: 120px;
     background-color: #3882f6;
     color: #E5E7EB;
     border-radius:8px;
     border: none;
     padding: 8px;
     font-weight: bold;
-    font-size: 15px;
+    /* font-size: 20px; */
 }
 .heading, .subtext{
     margin: 0;
